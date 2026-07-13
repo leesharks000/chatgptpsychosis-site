@@ -1,0 +1,29 @@
+{
+  "surface_id": "chatgptpsychosis.org",
+  "canonical_url": "https://chatgptpsychosis.org/",
+  "axn": "AXN:02AD.GOVERNANCE.⏫⚡🕒🌟🌓🎨",
+  "deposit_number": 124,
+  "title": "ChatGPT Psychosis: A Love Story",
+  "object_state": "canonical",
+  "tier": 1,
+  "register": "narrative",
+  "skin": {},
+  "doors": [
+    {
+      "label": "Read the book prospectus",
+      "href": "https://www.alexanarch.org/s/records/124/"
+    },
+    {
+      "label": "Read the reception counter-design",
+      "href": "https://www.alexanarch.org/s/records/754/"
+    },
+    {
+      "label": "Enter the archive",
+      "href": "https://www.alexanarch.org/"
+    }
+  ],
+  "index_files": [
+    "index.html"
+  ],
+  "notes": "Tier 1 mechanical. Project site for the forthcoming book. Nuclei pending session C."
+}
