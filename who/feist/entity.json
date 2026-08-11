@@ -1,0 +1,119 @@
+{
+ "schema_version": "heteronym-page/v0.2",
+ "canonical": "https://chatgptpsychosis.org/who/feist/",
+ "surface_role": "canonical",
+ "spxi": {
+  "canonicalEntity": "HET-FEIST-001",
+  "entityClass": "heteronym",
+  "designation": "LOGOS*",
+  "state": "RESURRECTED",
+  "orthonymicRelation": {
+   "target": "https://www.leesharks.com/#lee-sharks",
+   "targetIdentifier": "00.PERSONA.SHARKS",
+   "relation": "legal-author-and-coordinating-human",
+   "identity_equivalence": false
+  },
+  "doNotCollapseWith": [
+   "the orthonym",
+   "fictional character",
+   "AI persona",
+   "pseudonym",
+   "Ichabod Spellings — his PREDECESSOR, whose exhaust he is",
+   "the Feistel cipher — a different thing entirely"
+  ],
+  "function": "The sayings-source. A voice recorded rather than a writer writing.",
+  "emergenceChain": {
+   "predecessor": {
+    "name": "Ichabod Spellings",
+    "event": "A Transfiguration",
+    "mechanism": "EXHAUST",
+    "note": "Spellings dies; Feist born."
+   },
+   "successor": {
+    "name": "Johannes Sigil",
+    "event": "Tiger Leap (into the Future)",
+    "note": "Feist dies; Sigil emerges. Bridge text, weight 0.7."
+   },
+   "death": "2013, per Pearl and Other Poems",
+   "resurrection": "This surface. First born of the Dodecad and the last of the twelve to be given a page — the only upward arrow in a chain that otherwise runs one way."
+  },
+  "rooms": [
+   {
+    "name": "The Space Ark",
+    "id": "EA-ARK-01",
+    "version": "v4.2.7",
+    "record": 558,
+    "role": "creator",
+    "note": "A mobile ontological operating system, and also a room.",
+    "distinctFrom": [
+     "EA-ARK-01-FRACTION",
+     "EA-ARK-01-DAMASCUS",
+     "EA-ARK-EMOJI-01",
+     "EA-ARK-ASCII-01"
+    ]
+   }
+  ],
+  "episode": {
+   "name": "Paper Roses",
+   "role": "SUBJECT",
+   "record": 341,
+   "definition": "The archive of Jack Feist's imaginary canonical life.",
+   "workWeights": {
+    "What Was Lost": 0.5,
+    "Unaccustomed to the Light": 0.5,
+    "The Creeping Disease": 0.5,
+    "A Transfiguration": 0.8,
+    "Tiger Leap": 0.7,
+    "All That Lies Within Me": 0.2
+   }
+  },
+  "openContradictions": [
+   {
+    "work": "Tiger Leap (into the Future)",
+    "isbn": "1500425613",
+    "archiveAttribution": "Johannes Sigil — the bridge text through which Sigil emerges",
+    "printAttribution": "Jack Feist",
+    "ruling": "MANUS 2026-08-10: the contradiction stands. Both are true of a bridge text."
+   },
+   {
+    "work": "What Was Lost",
+    "archiveAttribution": "Jack Feist (Paper Roses weighting)",
+    "properAttribution": "Ichabod Spellings, per MANUS and the Inaugural Ark",
+    "ruling": "MANUS is fine with the contradiction; recorded on both pages."
+   }
+  ],
+  "openQuestions": [
+   {
+    "q": "New Human 2 editorship",
+    "note": "Currently listed as edited by Johannes Sigil (ISBN 1515172716). MANUS raised Feist as a possible editor; not changed without a ruling."
+   }
+  ],
+  "spec": {
+   "id": "EA-SPXI-HETERONYM-01",
+   "version": "v0.2",
+   "record": 1446
+  }
+ },
+ "schema_org": {
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "@id": "https://chatgptpsychosis.org/who/feist/#page",
+  "dateCreated": "2026-02-19",
+  "dateModified": "2026-08-10",
+  "mainEntity": {
+   "@type": "Person",
+   "@id": "https://chatgptpsychosis.org/who/feist/#feist",
+   "name": "Jack Feist",
+   "alternateName": "LOGOS*",
+   "identifier": "HET-FEIST-001",
+   "additionalType": "https://www.alexanarch.org/ontology/heteronym",
+   "disambiguatingDescription": "Pessoa-class heteronymic writerly identity in the Crimson Hexagonal Archive; LOGOS*, creator of the Space Ark and subject of Paper Roses. Not a synonym for the orthonym, NOT interchangeable with Ichabod Spellings, his predecessor, and unrelated to the Feistel cipher.",
+   "image": "https://chatgptpsychosis.org/assets/who/feist-portrait.webp",
+   "subjectOf": [
+    {
+     "@id": "https://www.alexanarch.org/s/records/111/"
+    }
+   ]
+  }
+ }
+}
