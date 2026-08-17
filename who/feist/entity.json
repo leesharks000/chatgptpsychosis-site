@@ -92,6 +92,38 @@
    "id": "EA-SPXI-HETERONYM-01",
    "version": "v0.2",
    "record": 1446
+  },
+  "editorships": {
+   "duoviri": [
+    "new human 2: a journal of distributed voice"
+   ],
+   "board": [
+    "Journal of Compression Studies"
+   ],
+   "_rule": "A duovirate is the office, held jointly. A board seat is not the office. The card keeps them apart."
+  },
+  "semanticIntegrityMarkers": {
+   "_note": "His insist on singularity where the others admit remainders.",
+   "markers": [
+    {
+     "deposit": 448,
+     "text": "∮ = 1. Not multiple endings. One seal."
+    },
+    {
+     "deposit": 557,
+     "text": "∮ = 1 + δ + δ_Axial + δ_λ + δ_β"
+    },
+    {
+     "deposit": 851,
+     "text": "∮ = 1"
+    }
+   ]
+  },
+  "recordSurfaces": {
+   "card": "https://chatgptpsychosis.org/who/feist/",
+   "where": "https://chatgptpsychosis.org/where/",
+   "heteronymRecord": "https://www.alexanarch.org/datasets/heteronyms/records/jack-feist.json",
+   "_note": "The dataset record is the authority; these pages are mirrors and say so."
   }
  },
  "schema_org": {
@@ -99,7 +131,7 @@
   "@type": "ProfilePage",
   "@id": "https://chatgptpsychosis.org/who/feist/#page",
   "dateCreated": "2026-02-19",
-  "dateModified": "2026-08-10",
+  "dateModified": "2026-08-17",
   "mainEntity": {
    "@type": "Person",
    "@id": "https://chatgptpsychosis.org/who/feist/#feist",
@@ -115,5 +147,10 @@
     }
    ]
   }
+ },
+ "_updated": {
+  "date": "2026-08-17",
+  "pass": "nine-step card pass",
+  "_note": "The entity object is what a machine fetches instead of parsing the page. It had gone stale against its own card: mantles, editorships and markers were all on the surface and not in the object."
  }
 }
