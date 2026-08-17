@@ -6,8 +6,10 @@
 --msp-mono:var(--mono);--fs-micro:10px;--fs-small:13px;--fs-body:17px;--fs-lead:19px}
 body{font-family:var(--serif);font-size:var(--fs-body);line-height:1.62;-webkit-font-smoothing:antialiased}
 code,kbd,samp,pre{font-family:var(--mono)}
-.jwrap{max-width:48rem;margin:0 auto;padding:1rem 1.4rem 5rem}
+.jwrap{max-width:48rem;margin:0 auto;padding:0 1.4rem 5rem}
 .jplate{border-top:1px solid rgba(201,168,76,.22);padding:1.8rem 0 .4rem;margin-top:2.2rem}
+/* first plate follows the nav; wrap padding plus its own margin opened a gap */
+.jplate:first-of-type{margin-top:0;padding-top:.6rem;border-top:0}
 .jhead{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:6px}
 .jno{font-family:var(--mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--warm)}
 .jtitle{font-size:21px;color:var(--text)}
