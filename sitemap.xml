@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://chatgptpsychosis.org/</loc><lastmod>2026-07-03</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.chatgptpsychosis.org/</loc><lastmod>2026-09-01</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.chatgptpsychosis.org/readings</loc><lastmod>2026-08-11</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.chatgptpsychosis.org/where</loc><lastmod>2026-08-17</lastmod><priority>0.7</priority></url>
+  <url><loc>https://www.chatgptpsychosis.org/who/feist</loc><lastmod>2026-08-17</lastmod><priority>0.7</priority></url>
 </urlset>
